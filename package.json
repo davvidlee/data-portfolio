@@ -3,13 +3,13 @@
   "version": "0.0.1",
   "private": true,
   "homepage": "https://davvidlee.github.io/data-portfolio",
-  "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build",
-    "start": "next start",
-    "lint": "eslint . --ext .ts,.tsx -c .eslintrc.json --fix",
-    "deploy": "next build && touch out/.nojekyll && gh-pages -d out"
-  },
+"scripts": {
+  "dev": "next dev --turbopack",
+  "build": "next build",
+  "start": "next start",
+  "lint": "eslint . --ext .ts,.tsx -c .eslintrc.json --fix",
+  "deploy": "next build && echo www.davvidlee.com > out/CNAME && touch out/.nojekyll && gh-pages -d out"
+},
   "dependencies": {
     "@heroui/button": "2.2.17",
     "@heroui/code": "2.2.12",

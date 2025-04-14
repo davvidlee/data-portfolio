@@ -3,7 +3,7 @@
 import { title } from "@/components/primitives";
 import Image from "next/image";
 import Link from "@heroui/link";
-import { GithubIcon } from "@/components/icons";
+import { GithubIcon, TableauIcon } from "@/components/icons";
 export default function ProjectsPage() {
   return (
     <section className="max-w-6xl mx-auto px-4 py-16 space-y-12">
@@ -129,17 +129,28 @@ export default function ProjectsPage() {
             <h2 className="text-xl font-semibold">
               Climate Change in LA County
             </h2>
-            <a
-              href="https://github.com/davvidlee/chat-analysis"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-gray-500 hover:text-white"
-            >
-              <GithubIcon />
-            </a>
+            <span className="flex items-center gap-2">
+              <a
+                href="https://github.com/davvidlee/chat-analysis"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-500 hover:text-white"
+              >
+                  <GithubIcon />
+              </a>
+              <a
+                href="https://public.tableau.com/views/CHATDashboard_17446695467680/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-500 hover:text-white"
+              >
+                  <TableauIcon />
+              </a>
+            </span>
+
           </div>
           <p className="text-gray-750 text-md">
-            Technologies Used: Python, Pandas, NumPy, Matplotlib, Seaborn,
+            Technologies Used: Python, Tableau, Pandas, NumPy, Matplotlib, Seaborn,
             Plotly, Geopy, CensusGeocode
           </p>
           <p className="text-gray-750 text-sm">

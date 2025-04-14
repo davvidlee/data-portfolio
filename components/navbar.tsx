@@ -20,7 +20,6 @@ import { ThemeSwitch } from "@/components/theme-switch";
 import {
   LinkedInIcon,
   GithubIcon,
-  DiscordIcon,
   HeartFilledIcon,
   SearchIcon,
   Logo,
