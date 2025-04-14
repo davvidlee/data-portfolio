@@ -104,7 +104,7 @@ export default function Home() {
                 </div>
                 <div className="flex-shrink-0">
                   <Image
-                    src="/images/baseball.png"
+                    src={`${basePath}/images/baseball.png`}
                     alt="baseball analytics"
                     className="w-28 h-28 object-cover rounded-md"
                     unoptimized
@@ -133,7 +133,7 @@ export default function Home() {
                 </div>
                 <div className="flex-shrink-0">
                   <Image
-                    src="/images/facebook.png"
+                    src={`${basePath}/images/facebook.png`}
                     alt="facebook ego networks"
                     className="w-28 h-28 object-cover rounded-md"
                     unoptimized
@@ -163,7 +163,7 @@ export default function Home() {
 
                 <div className="flex-shrink-0">
                 <Image
-                    src="/images/obesity.jpg"
+                    src={`${basePath}/images/obesity.jpg`}
                     alt="Obesity and Food Affordability"
                     className="w-28 h-28 object-cover rounded-md"
                     unoptimized
@@ -192,7 +192,7 @@ export default function Home() {
 
                 <div className="flex-shrink-0">
                   <Image
-                    src="/images/chat.png"
+                    src={`${basePath}/images/chat.png`}
                     alt="climate change la county"
                     className="w-28 h-28 object-cover rounded-md"
                     unoptimized
