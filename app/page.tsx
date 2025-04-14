@@ -9,8 +9,10 @@ import { siteConfig } from "@/config/site";
 import { title, subtitle } from "@/components/primitives";
 import { GithubIcon } from "@/components/icons";
 import React from "react";
+import { useRouter } from 'next/router';
 
 import { motion } from "framer-motion";
+const { basePath } = useRouter();
 
 export default function Home() {
   return (
@@ -63,7 +65,7 @@ export default function Home() {
         {/* Image */}
         <Link href="/about">
           <Image
-            src="/images/david1.jpg"
+            src={`${basePath}/images/drumbeat.png`}
             alt="David Lee"
             className="w-40 h-40 rounded-full object-cover border border-gray-300 shadow-md"
             unoptimized
