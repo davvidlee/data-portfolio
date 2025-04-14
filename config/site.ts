@@ -24,5 +24,5 @@ export const siteConfig = {
   links: {
     github: "https://github.com/davvidlee/",
     linkedin: "https://linkedin.com/in/david-lee-305b9422b/",
-  }
+  },
 };
