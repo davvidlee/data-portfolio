@@ -9,12 +9,13 @@ import { siteConfig } from "@/config/site";
 import { title, subtitle } from "@/components/primitives";
 import { GithubIcon } from "@/components/icons";
 import React from "react";
-import { useRouter } from 'next/router';
 
 import { motion } from "framer-motion";
-const { basePath } = useRouter();
+import { useRouter } from 'next/router';
 
 export default function Home() {
+  const { basePath } = useRouter();
+
   return (
     <section className="flex flex-col items-center gap-4 py-10 px-4">
       {/* Intro Section */}
