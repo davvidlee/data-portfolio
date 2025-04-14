@@ -66,6 +66,7 @@ export default function Home() {
             src="/images/david1.jpg"
             alt="David Lee"
             className="w-40 h-40 rounded-full object-cover border border-gray-300 shadow-md"
+            unoptimized
           />
         </Link>
       </motion.div>
@@ -104,6 +105,7 @@ export default function Home() {
                     src="/images/baseball.png"
                     alt="baseball analytics"
                     className="w-28 h-28 object-cover rounded-md"
+                    unoptimized
                   />
                 </div>
               </div>
@@ -132,6 +134,7 @@ export default function Home() {
                     src="/images/facebook.png"
                     alt="facebook ego networks"
                     className="w-28 h-28 object-cover rounded-md"
+                    unoptimized
                   />
                 </div>
               </div>
@@ -161,6 +164,7 @@ export default function Home() {
                     src="/images/obesity.jpg"
                     alt="Obesity and Food Affordability"
                     className="w-28 h-28 object-cover rounded-md"
+                    unoptimized
                   />
                 </div>
               </div>
@@ -189,6 +193,7 @@ export default function Home() {
                     src="/images/chat.png"
                     alt="climate change la county"
                     className="w-28 h-28 object-cover rounded-md"
+                    unoptimized
                   />
                 </div>
               </div>

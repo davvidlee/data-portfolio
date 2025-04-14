@@ -23,6 +23,7 @@ export default function ProjectsPage() {
             width={200}
             height={150}
             className="rounded-md object-cover"
+            unoptimized
           />
           <div className="flex items-center gap-2">
             <h2 className="text-xl font-semibold">Baseball Analytics</h2>
@@ -56,6 +57,7 @@ export default function ProjectsPage() {
             width={200}
             height={150}
             className="rounded-md object-cover"
+            unoptimized
           />
           <div className="flex items-center gap-2">
             <h2 className="text-xl font-semibold">Facebook Ego Networks</h2>
@@ -88,6 +90,7 @@ export default function ProjectsPage() {
             width={200}
             height={150}
             className="rounded-md object-cover"
+            unoptimized
           />
           <div className="flex items-center gap-2">
             <h2 className="text-xl font-semibold">
@@ -121,6 +124,7 @@ export default function ProjectsPage() {
             width={200}
             height={150}
             className="rounded-md object-cover"
+            unoptimized
           />
           <div className="flex items-center gap-2">
             <h2 className="text-xl font-semibold">
@@ -164,6 +168,7 @@ export default function ProjectsPage() {
             width={200}
             height={150}
             className="rounded-md object-cover"
+            unoptimized
           />
           <h2 className="text-xl font-semibold">Milk and Honey (SaaS)</h2>
           <p className="text-gray-750 text-md">
@@ -185,6 +190,7 @@ export default function ProjectsPage() {
             width={200}
             height={150}
             className="rounded-md object-cover"
+            unoptimized
           />
           <h2 className="text-xl font-semibold">Drum Beat VR</h2>
           <p className="text-gray-750 text-md">
