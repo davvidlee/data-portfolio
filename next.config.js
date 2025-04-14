@@ -1,12 +1,13 @@
 const isProd = process.env.NODE_ENV === 'production';
 
 const nextConfig = {
-  output: 'export',
-  basePath: isProd ? '/data-portfolio' : '',
-  assetPrefix: isProd ? '/data-portfolio/' : '',
+  reactStrictMode: true,
   images: {
     unoptimized: true,
   },
+  assetPrefix: isProd ? '/' : '',
+  basePath: '',
+  output: 'export',
 };
 
-module.exports = nextConfig;
+export default nextConfig;
