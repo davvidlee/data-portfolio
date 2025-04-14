@@ -21,8 +21,8 @@ export default function Home() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
       >
-        <span className= {title({ color: "foreground" })}>I am&nbsp;</span>
-        <span className={title({ color: "cyan" })}>David Lee&nbsp;</span>
+        <span className={`${title({ color: "foreground" })} inline`}>I am&nbsp;</span>
+        <span className={`${title({ color: "cyan" })} inline`}>David Lee&nbsp;</span>
         <br /><br />
         <div>
         Recent Computer Science graduate from Pomona College. Hands-on experience in data analysis, backend development, and automation. Skilled in Python, SQL, and data visualization, with a strong focus on transforming complex data into actionable insights.
