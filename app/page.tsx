@@ -9,7 +9,6 @@ import { siteConfig } from "@/config/site";
 import { title, subtitle } from "@/components/primitives";
 import { GithubIcon } from "@/components/icons";
 import React from "react";
-import { basePath } from '@/app/config'; // or wherever you put it
 
 import { motion } from "framer-motion";
 
@@ -65,7 +64,7 @@ export default function Home() {
         {/* Image */}
         <Link href="/about">
           <Image
-            src={`${basePath}/images/david1.jpg`}
+            src={`/images/david1.jpg`}
             alt="David Lee"
             className="w-40 h-40 rounded-full object-cover border border-gray-300 shadow-md"
             unoptimized
@@ -104,7 +103,7 @@ export default function Home() {
                 </div>
                 <div className="flex-shrink-0">
                   <Image
-                    src={`${basePath}/images/baseball.png`}
+                    src={`/images/baseball.png`}
                     alt="baseball analytics"
                     className="w-28 h-28 object-cover rounded-md"
                     unoptimized
@@ -133,7 +132,7 @@ export default function Home() {
                 </div>
                 <div className="flex-shrink-0">
                   <Image
-                    src={`${basePath}/images/facebook.png`}
+                    src={`/images/facebook.png`}
                     alt="facebook ego networks"
                     className="w-28 h-28 object-cover rounded-md"
                     unoptimized
@@ -163,7 +162,7 @@ export default function Home() {
 
                 <div className="flex-shrink-0">
                 <Image
-                    src={`${basePath}/images/obesity.jpg`}
+                    src={`/images/obesity.jpg`}
                     alt="Obesity and Food Affordability"
                     className="w-28 h-28 object-cover rounded-md"
                     unoptimized
@@ -192,7 +191,7 @@ export default function Home() {
 
                 <div className="flex-shrink-0">
                   <Image
-                    src={`${basePath}/images/chat.png`}
+                    src={`/images/chat.png`}
                     alt="climate change la county"
                     className="w-28 h-28 object-cover rounded-md"
                     unoptimized

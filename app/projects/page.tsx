@@ -4,7 +4,6 @@ import { title } from "@/components/primitives";
 import Image from "next/image";
 import Link from "@heroui/link";
 import { GithubIcon } from "@/components/icons";
-import { basePath } from '@/app/config';
 export default function ProjectsPage() {
   return (
     <section className="max-w-6xl mx-auto px-4 py-16 space-y-12">
@@ -18,7 +17,7 @@ export default function ProjectsPage() {
         {/* Project Card */}
         <div className="flex flex-col gap-4">
           <Image
-            src={`${basePath}/images/baseball.jpg`}
+            src={`/images/baseball.jpg`}
             alt="Baseball Analytics"
             width={200}
             height={150}
@@ -52,7 +51,7 @@ export default function ProjectsPage() {
 
         <div className="flex flex-col gap-4">
           <Image
-            src={`${basePath}/images/facebook.png`}
+            src={`/images/facebook.png`}
             alt="Facebook Social Circles"
             width={200}
             height={150}
@@ -85,7 +84,7 @@ export default function ProjectsPage() {
 
         <div className="flex flex-col gap-4">
           <Image
-            src={`${basePath}/images/obesity.jpg`}
+            src={`/images/obesity.jpg`}
             alt="Facebook Social Circles"
             width={200}
             height={150}
@@ -119,7 +118,7 @@ export default function ProjectsPage() {
 
         <div className="flex flex-col gap-4">
           <Image
-            src={`${basePath}/images/chat.png`}
+            src={`/images/chat.png`}
             alt="Climate Change in LA County"
             width={200}
             height={150}
@@ -163,7 +162,7 @@ export default function ProjectsPage() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
         <div className="flex flex-col gap-4">
           <Image
-            src={`${basePath}/images/milkhoney.jpg`}
+            src={`/images/milkhoney.jpg`}
             alt="Milk and Honey"
             width={200}
             height={150}
@@ -185,7 +184,7 @@ export default function ProjectsPage() {
 
         <div className="flex flex-col gap-4">
           <Image
-            src={`${basePath}/images/drumbeat.png`}
+            src={`/images/drumbeat.png`}
             alt="Drum Beat VR"
             width={200}
             height={150}
