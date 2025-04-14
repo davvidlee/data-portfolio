@@ -9,6 +9,7 @@ import { siteConfig } from "@/config/site";
 import { title, subtitle } from "@/components/primitives";
 import { GithubIcon } from "@/components/icons";
 import React from "react";
+
 import { motion } from "framer-motion";
 
 export default function Home() {

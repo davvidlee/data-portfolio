@@ -4,12 +4,11 @@
   "private": true,
   "homepage": "https://davvidlee.github.io/data-portfolio",
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d out"
+    "lint": "eslint . --ext .ts,.tsx -c .eslintrc.json --fix",
+    "deploy": "next build && next export && touch out/.nojekyll && gh-pages -d out"
   },
   "dependencies": {
     "@heroui/button": "2.2.17",
