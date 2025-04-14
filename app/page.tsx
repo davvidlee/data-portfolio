@@ -4,7 +4,7 @@ import { Link } from "@heroui/link";
 import { Snippet } from "@heroui/snippet";
 import { Code } from "@heroui/code";
 import { button as buttonStyles } from "@heroui/theme";
-
+import Image from 'next/image';
 import { siteConfig } from "@/config/site";
 import { title, subtitle } from "@/components/primitives";
 import { GithubIcon } from "@/components/icons";
@@ -62,7 +62,7 @@ export default function Home() {
 
         {/* Image */}
         <Link href="/about">
-          <img
+          <Image
             src="/images/david1.jpg"
             alt="David Lee"
             className="w-40 h-40 rounded-full object-cover border border-gray-300 shadow-md"
@@ -100,7 +100,7 @@ export default function Home() {
                   </p>
                 </div>
                 <div className="flex-shrink-0">
-                  <img
+                  <Image
                     src="/images/baseball.png"
                     alt="baseball analytics"
                     className="w-28 h-28 object-cover rounded-md"
@@ -128,7 +128,7 @@ export default function Home() {
                   </p>
                 </div>
                 <div className="flex-shrink-0">
-                  <img
+                  <Image
                     src="/images/facebook.png"
                     alt="facebook ego networks"
                     className="w-28 h-28 object-cover rounded-md"
@@ -157,7 +157,7 @@ export default function Home() {
                 </div>
 
                 <div className="flex-shrink-0">
-                  <img
+                <Image
                     src="/images/obesity.jpg"
                     alt="Obesity and Food Affordability"
                     className="w-28 h-28 object-cover rounded-md"
@@ -185,7 +185,7 @@ export default function Home() {
                 </div>
 
                 <div className="flex-shrink-0">
-                  <img
+                  <Image
                     src="/images/chat.png"
                     alt="climate change la county"
                     className="w-28 h-28 object-cover rounded-md"
